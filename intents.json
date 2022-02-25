@@ -1,0 +1,103 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+       "hey",
+       "hello",
+        "suggest some",
+        "Hello",
+        "hi","hiii","hiiii"
+      ],
+      "responses": [
+        "Hi,how was your day",
+        "Hey,How are you doing",
+        "Hey,How are you",
+        "Hey,How is your day going",
+        "Hello, how are you feeling today",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later",
+        "Have a nice day😊",
+        "Bye! Come back again soon.",
+" Hope you would like the recommendations"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"," Hope you would like the recommendations "]
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "play a song",
+        "romantic","good mood",
+        "play","song",
+        "I am so happy today",
+        "I am feeling good","very good",
+        "I am feeling great",
+        "I am feeling excited","good","so good",
+"I feel like partying","Party","its my birthday","Romantic","Love","dj ","Romantic songs","Romantic","like romantic","high"
+      ],
+      "responses": [
+        "Oh that’s great","here are some songs for you",
+
+        "You may like these songs"
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "feeling not happy",
+        "I am little down today..",
+        "I feel like crying","not so good","very bad",
+        "I feel little sad today","i am sad","not happy",
+        "I am depressed","bad day","Bad","sad","cry","down","low","exhausted","exhaust","rough","motivation","motivational"
+      ],
+      "responses": [
+        "Life is full of good and bad events,You might feel better Listening to these songs",
+        "These are some songs that may uplift your mood",
+        "Let me suggest some songs for you","You might feel better Listening to these songs"
+      ]
+    },
+    {
+      "tag": "angry",
+      "patterns": [
+        "stucked",
+        "I am feeling angry",
+        "I am so angry",
+        "Today i got stuck in traffic",
+        "I am in a bad mood",
+"Lot of work","stress","stressed","fight"
+      ],
+      "responses": [
+        "You may like these songs",
+        "These are some songs that may uplift your mood"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?","lame"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+"I am really bad at jokes let me suggest you some great fun music"
+      ]
+    }
+
+  ]
+}  
+
+
